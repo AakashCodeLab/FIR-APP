@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="***** HIstory *****"
+        android:layout_marginTop="60dp"
+        android:textSize="33dp"
+        android:id="@+id/textView13"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#9e2626" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center_horizontal">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="Crime Type"
+            android:textSize="23dp"
+            android:textColor="#2294eb"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textView7" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="   FIR ID"
+            android:textSize="23dp"
+            android:textColor="#d75336"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textView9" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="Date Of Lodge "
+            android:textSize="22dp"
+            android:textColor="#ea168e"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textView8"
+            android:layout_column="3" />
+
+
+    </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal">
+
+
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="   Hurt"
+                android:textSize="23dp"
+                android:textColor="#2294eb"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/textView10" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="BRP5L631"
+                android:textSize="23dp"
+                android:textColor="#d75336"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/textView11" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="   1/04/2016 "
+                android:textSize="23dp"
+                android:textColor="#ea168e"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/textView12"
+                android:layout_column="3" />
+
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

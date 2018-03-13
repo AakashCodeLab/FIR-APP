@@ -1,0 +1,115 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity"
+
+    android:background="#ffffff">
+
+
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="90dp"
+            android:layout_marginBottom="8dp"
+            android:id="@+id/view"></android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:id="@+id/view2"></android.support.design.widget.TextInputLayout>
+
+
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:drawable="@drawable/status"
+        android:id="@+id/t"
+        android:background="#ffffff"
+        android:textColor="#ff6600"
+        android:textStyle="bold|italic"
+        android:textSize="40dp"
+        android:layout_alignBottom="@+id/view"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/etUserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:layout_marginTop="72dp"
+        android:hint=" Enter Your UserName"
+        android:textColorHint="#cccccc"
+        android:drawableRight="@drawable/user"
+        android:layout_below="@+id/view"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/etFirId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:hint="Enter Your Unique FIR ID"
+        android:textColorHint="#cccccc"
+        android:password="true"
+        android:layout_below="@+id/etUserName"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btnstatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#085682"
+        android:textColor="#ffffff"
+        android:padding="20dp"
+        android:text="Check Status"
+        style="@style/DefaultButtonText"
+        android:onClick="OnStatus"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="74dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Ex: IXM53533553"
+        android:textSize="23dp"
+        android:id="@+id/textView8"
+        android:layout_below="@+id/etFirId"
+        android:layout_alignRight="@+id/btnStatus"
+        android:layout_alignEnd="@+id/btnStatus" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:src="@drawable/status"
+        android:layout_below="@+id/view2"
+        android:layout_centerHorizontal="true" />
+
+
+
+</RelativeLayout>
+
+
+
+

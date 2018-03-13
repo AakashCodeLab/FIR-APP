@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="utype">
+        <item>@string/spinner_title</item>
+        <item>@string/utype1</item>
+        <item>@string/utype2</item>
+        <item>@string/utype3</item>
+    </string-array>
+
+
+    <string-array name="stype">
+        <item>@string/spinner</item>
+        <item>@string/u1</item>
+        <item>@string/u2</item>
+        <item>@string/u3</item>
+    </string-array>
+
+
+
+    <string-array name="atype">
+        <item>@string/spinnera</item>
+        <item>@string/a1</item>
+        <item>@string/a2</item>
+        <item>@string/a3</item>
+    </string-array>
+
+
+
+
+</resources>

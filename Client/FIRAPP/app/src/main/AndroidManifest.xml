@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.aakash.firapp">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme">
+            android:icon="@drawable/logo"
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name=".activity_sign_up"
+            android:label="Sign Up"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.activity_sign_up" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity_sign_in"
+            android:label="Sign In "
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.activity_sign_in" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name=".complainer"
+            android:label="Complainer"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.complainer" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".superintendent"
+            android:label="Superintendent"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.superintendent" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".police"
+            android:label="Police"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.police" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
+
+
+        <activity
+            android:name=".addfir"
+            android:label="Lodge FIR"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.addfir" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".firstatus"
+            android:label="Status"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.firstatus" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".feedback"
+            android:label="Feedback"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.feedback" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".history"
+            android:label="History"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.history" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
+
+
+    </application>
+
+
+</manifest>
